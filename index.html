@@ -1,0 +1,403 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <link rel="stylesheet" href="http://localhost:5500/style.css?_cacheOverride=1725039662550">
+</head>
+
+<body>
+    <div class="container">
+        <div class="filter item1 "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"
+                class="topbar_icon topbar_icon_ltr" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
+                </path>
+            </svg>
+            <p>info@SaylaniWelfare.com</p>
+        </div>
+        <div class="filter item2"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                viewBox="0 0 1024 1024" class="topbar_icon topbar_icon_ltr" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 0 1-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 0 0-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 0 0 285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z">
+                </path>
+            </svg>
+            <p>021-111-729-526</p>
+        </div>
+        <div class="filter item3"><img src="assets/WhatsApp-Logo.png" width="20px"/>
+            <p>+923111729526</p>
+        </div>
+        <div class="filter item4">
+            <p>Our other websites:</p><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXUlEQVR4nO2Yj09TVxTH+0/NCTKKOCUoKBTZpPwQZUwCbChxZrgYolkIicRsI8vi5rZs7mfCzH6VgdMMgQGR8aMi/gKFMUv7Xkv7XmlL+9q+73Lv6ys8Hq8tUp1Z3je5aZr0nnM/99x77jk1GHTp0qVLly5dz4GiHIe1WglG8Pl3D/By6W8wFltSHrJsGS8ohqzN2DIWW5B7sBudn07Dx/nh/eQiFrN3UHsqAHv+bvh/+QkQRQXIgs2HE60j/wlA4+khPJz3Ijg8BOZgsWQrcxs8755TA8iO2CNVEO7eUUAQpt6+xyiq/v2ZABRWXkXXr3MQWAbus61xG2xlGULWSWpHBRC42gNHQb7046zt4D94D2LArwBZ9gk0nDtLup8KQI7Jgrb3J8G5A1j+5iss5hrpXPJJviMSidtRAVzumkXI6wP/YSdsO16kEwmQv3t1UbKm73tQ0zyQVoDXmgeo3dDkBNiKsvi8pZMnEHHYFf6FcFQNQIyY6//AzQkWwswDOGuPxo24GuoQnp9TGImKIn7u/Rt7y3u3BJBX1oOvr8xC8PDgLnSsbl5JEVaGBlWbN3l7CYffvLExgDxa2kbBOgN098nlpmHMzqTREUMhhUGXO0jD/iQALW2jYFjZzx7Jz0sZG/pZ8kh+yDEjcxMCkEF2llyksIdT7AzJBiQrrNfElAtVb9xICUAR6ddrlJGeU0eaJJDCKmUCSQogj5o1Z5MpP5TwbIYjYlIA8rYE+dhdy9qe8K7df8ih7tSfG64rZYD12cH3/bdY3CVnh2x4L30MURBUzrUAVgb64SgqiGc77kIHRJ9v09lOBYA0SwsgXTL87wBs6xw+78OgA2ToEUBaj1C6L5mehZIo5YdsX4VUm0ejykYnvLAAV1NjfKeddbUQZmeSRmB4jFUtJjQxDsb8quKVDzsYWkLsP7xxD5ISQOv5cbg5ZVElBoP09ZVbO3veLvo6O51++lonA5CLOAcbUNoNh6VXPtYD2HfvpN95Pii9yqbu1AEqGvrwl9Wp2qmVwQE4Sg5Ii8rcRrslweWmEco3S2V1KgC0jD7UQ+siUtuvVYRl4T79dnweW1WO0O0pWKeXUN3UnxggoVFFa2dGaOoWbt1x48jx/i31AxWNfRizutSbRWom037NzVIBkLDaGY2wrineli9/oRnWJ+3IckwWtHdawfHJj6v/xytwsP7kaTQ0PgbG/Ep8Ae4z7yDMsvRiHdC4WFvtiQsqNRLGo0dw1h9bTRj1x7QBojwPT3sbDRv5MVNqQnBkGLNzPBpahhIuYKsAxtioPTmIuzPK/6mIAtevwb4vT+Mhi0bh+6EL9j250nHJyYL3s0sIeAO4+OU9+gdTKs7TAWAsttDj2fHRFHz+sAIi6vWCO9+uBnDWVK/m4ebjiNgeY2iUQWnt9ZSdphPAGBumo9fosV0vFQBx4ijcS1s7m92Pt87d3LSzpwFgjI2mMyOY/2dZG0CXLl26dOnSZXj2+hdh4D9R4Q/X/wAAAABJRU5ErkJggg=="
+                alt="UKImage" style="width: 20px;"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+klEQVR4nO2VrQoCQRSFx5eybhAWtmkSxGLWJzD4ACbrWn0FFxQVDGKzCQo2g2lAFydZruyCFg3uMr/O+eDA3HYP9565jAEAAADAMERUCRoJyZaoVZWJ/aWBqDWn0Xj/bqBo3etvcxkxEDZndDjdKGMw3FHRut1dU3p/5MremQF+TZWJfZtAPDnSanOhemdJZerp4pzrNQHtBgLJMmIgkpgD7SEOJefAyDcaS8yB83eA685AJPkOaDUQ4g4kH3fA+QwIGKj+PgGVgdMSYm5BU9xrA0Jh4LT8QsKCpoTXBrgFe829DjF33YCwYK+F1yEWLhsAAAAAAGCleAKWmufwwWk9CQAAAABJRU5ErkJggg=="
+                alt="USAImage" style="width: 20px;"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABU0lEQVR4nO2VP0sDMRjGD4o6iyDo5Kr0A4jlOC0O0iLWwanQ0Toogrr004iLuKoIdXIQP4VScY/Vuy3p3T0Si38GgzVFLyfPAy+EJC/JL++feB5FURRF/QfB9zCIiafwVw0D3oMAghEImUIsYvFNHUTtY0Rnh/nsQo8PHSSrk0irE+h2bvMDoHaXEV5fQLZq7z56rOf0mvMAydqU0TepTbsPENdnjb5xfc59ANVcMPqqrZK7AGo7QHR5ArlfMfrKgyqeb9qQeyvuASAo9PcsjRh90/JYfxwU3ACQnzqNrcnWenYAb73e9vKp/iPu77JNIf3b2gJE50fZppAuSLWzaA3Q25xHeHVKgKFSyCYSX728yLqN/uRwJz8yoQ8vjyKtjCPemEGvUfx48UbxdU6v6T3OAgjDZWx8QAB/+AjYGFyKAAF8RsBjCom/KmKKoiiK8nKoFz8f4JiFDf/dAAAAAElFTkSuQmCC"
+                alt="CanadaImage" style="width: 20px;"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1klEQVR4nO2WT0gUYRiHZxM9JKgQGCEeCsGrmhgUs5IgbQRLFJSQp91M7BZtF/Hin8NCEIG4oh3aDhHioT9EBqJ1MmqpDmJ7ywWhQhMjtUW33UemUT/3tCO1zoy9D3yHZeZ7eZ95f9/saJogCIIg7AfQNdy0NBHQZQJIhHZidySQQ6xbeAoXK+F+N8TfweI3WP0JiU/wZBDa6h08Aa8H7nXBWpI/pNMw/hBunoGzZeb1CxVwutCBAl4PjEXZ5vsX6DjpojMQuaWaX16CK9W2N49lAX85/FpWAuFA7uLGnj2IkmZJoP+Gan5+DhoLchdvPwGPbqvfzcU2Crx5oQSeDlkrfq0BMhmI9sDUczOCtgnMziiBXI2cOwThIHx4pfZ8fG1taroTBC4fg4EQxGNqT2wcGg/YKPD2pWrmccRa8avHzftH7sD7CZsjNBBSAl8T1p5msC77vPhKbRQ4fwSSK0qitzV3cf9haD6Yl6bZtYCxhjuVwI8FuHQ0783xTwWM2EyOZEcpUOMiAX1T4kEfpNZNid8peDYM109BU5F5j68kb69M/lpga7VUmf+yn6chuWp+lRoTGb0LgVoHT0B33tJEQJcJIBHaid2R4L8/xIIgCIKguZANPKAGeS46VvoAAAAASUVORK5CYII="
+                alt="TurkeyImage" style="width: 20px;">
+        </div>
+        <select class="Options" control-id="ControlID-1">
+            <option>English</option>
+            <option>اردو</option>
+            <option>Türkçe</option>
+        </select>
+    </div>
+    <header>`
+    <div class="ImageCarousel">
+        <div class="welfareBox">
+            <img src="/assets/44.png"/>
+            <span>Welfare</span>
+        </div>
+        <div class="medicalBox">
+            <img src="/assets/45.png"/>
+            <span>Medical</span>
+        </div>
+        <div class="onlineSadqahBox">
+            <img src="/assets/46.png"/>
+            <span>Online Sadqah</span>
+        </div>
+        <div class="cleanWaterBox">
+            <img src="/assets/47.png"/>
+            <span>Clean Water</span>
+        </div>
+        <div class="educationBox">
+            <img src="/assets/48.png"/>
+            <span>Education</span>
+        </div>
+        <div class="foodBox">
+            <img src="/assets/49.png"/>
+            <span>Food</span>
+        </div>
+    </div>
+    <div class="testimonialsContainer">
+        <div class="homeFund border">
+            <div class="overlay"></div>
+            <img src="/assets/50.jpeg"/>
+            <h5 class="foodFund">Daily Food</h5>
+            <div class="TCBtnContainer">
+                <button class="primarybtn" control-id="ControlID-8">Donate</button>
+            </div>
+        </div>
+        <div class="sponsor border">
+            <div class="overlay"></div>
+            <img src="/assets/51.jpeg"/>
+            <h5 class="vocational">Sponsor Vocational Students</h5>
+            <div class="SBtnContainer">
+                <button class="primarybtn" control-id="ControlID-9">Donate</button>
+            </div>
+        </div>
+        <div class="IT border">
+            <div class="overlay"></div>
+            <img src="/assets/52.jpeg"/>
+            <h5 class="students">Sponsor IT Students</h5>
+            <div class="ITBtnContainer">
+                <button class="primarybtn" control-id="ControlID-10">Donate</button>
+            </div>
+        </div>
+    </div>
+    <div class="MainDiv">
+        <div class="upcoming_projects">
+            <img src="/assets/43.jpg" class="ImageBg"/>
+            <div class="upcomingTxtContainer">
+                <div class="Saylani">
+                    <h3 class="upcomingTxt">Saylani serve almost 300,000 underprivileged on daily basis</h3>
+                </div>
+                <div class="upcoming_projectsBorder"></div>
+            </div>
+        </div>
+        <div class="OtherProjects">
+            <div>
+                <h5 class="H6">Housing Society</h5>
+                <p id="housingSociety">Saylani Welfare is also providing its own home facility for the homeless people. So far, thousands of houses and flats have been constructed and given in easy installments</p>
+            </div>
+            <h5 class="H7">IT Literacy</h5>
+            <p id="IT_Literacy">We are committed to developing more than 1 million software developers, which will add about 100 billion annually to Pakistan's economy and help ease the debt burden on Pakistan</p>
+            <h5 id="H8">Tharparkar</h5>
+            <p id="Tharparkar">In Tharparkar, Saylani has set up several schools and ro plants, dug wells and brought the children there to Karachi and taught them modern technology</p>
+        </div>
+    </div>
+    <div class="services_counter">
+        <div class="first">
+            <div class="SCBorder"><img src="/assets/55.png" class="SCIcon"/></div>
+            <h1 class="SCNumbers">25000</h1>
+            <p class="Daily">Food (Daily)</p>
+        </div>
+        <div class="second">
+            <div class="SCBorder"><img src="/assets/55.png" class="SCIcon"/></div>
+            <h1 class="SCNumbers">25000</h1>
+            <p class="Adoption">Family Adoption (Monthly)</p>
+        </div>
+        <div class="third">
+            <div class="SCBorder"><img src="/assets/56.png" class="SCIcon"/></div>
+            <h1 class="SCNumbers">20000</h1>
+            <p class="Education">Education (Monthly)</p>
+        </div>
+        <div class="Fourth">
+            <div class="SCBorder"><img src="/assets/57.png" class="SCIcon"/></div>
+            <h1 class="SCNumbers">125000</h1>
+            <p class="Mediacal">Mediacal (Monthly)</p>
+        </div>
+    </div>
+    <div class="testimonials_heading">
+        <span class="test"><h2 class="testimonials">What They Say?</h2</span>
+    </div>
+    <div class="testimonials_box">
+        <img src="/assets/59.jpg" class="testimonial_image"/>
+        <h4 class="testimonial_Name">Arshad Wali Muhammad</h4>
+        <p class="testimonials_box_span">(Group Director, Gerry’s Group)</p>
+        <span class="testimonial">Saylani Welfare Trust is a name that needs no introduction today. The journey this
+            team embarked upon was made possible owing to their zeal, enthusiasm &amp; commitment to the society and by
+            the
+            grace of Allah (SWT), it has become a name that we need and not just the one we want. I wish Saylani’s team
+            all the success and blessing that they deserve for future, May God bless Saylani and ensure prosperity and
+            happiness for our people, Ameen!</span>
+        <br />
+        <div class="button">
+            <button class="testimonials_back_btn" control-id="ControlID-11"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="32" width="32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z">
+                    </path>
+                </svg> </button>
+            <button class="testimonials_forward_btn" control-id="ControlID-12"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="32" width="32"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z">
+                    </path>
+                </svg> </button>
+        </div>
+    </div>
+    <div class="media_container">
+        <h2 class="media_heading">Media Updates</h2>
+        <div class="cardContainer">
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/60.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Launching SQA Engineering at Zaitoon Ashraf IT Park | Empowering the Future of
+                        IT | Saylani
+                        Welfare</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/62.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Electric Bill Support Program</h5>
+                    <h5 class="Organisation">##Charity #Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/63.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Building the Future Saylani School of Emerging Sciences & Skills in Karachi at
+                        Naya Nazimabad</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/64.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Saylani Launches Imam Ahmed Raza University in Malir | Opening 2025 | Maulana
+                        Bashir Farooq Qadri</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/65.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Planting seeds of freedom with Artistic Milliners</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/66.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Independence Day Tribute.</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/68.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">Join the A&IT Course and Secure Your Future with Top Jobs | Maulana Bashir
+                        Farooq Qadri | SBIL</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFirstC">
+                    <img src="/assets/67.jpg" class="mcImg" />
+                    <img src="/assets/61.png" class="mcIcn" />
+                    <p class="Tag">Tue Aug 27 2024</p>
+                    <div class="opacityLayer"></div>
+                </div>
+                <div>
+                    <h5 class="Launching">International Award | United Arab Emirates | Recognized and awarded</h5>
+                    <h5 class="Organisation">#Organisation</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news_container">
+        <h1 class="news_Heading">News</h1>
+        <div class="newsCardC">
+            <div class="newsCard">
+                <div class="newsFirst">
+                    <img src="/assets/69.jpg" class="ncImg" />
+                    <div class="Layer"></div>
+                </div>
+                <div class="data">
+                    <p class="date">Wed Aug 18 2028</p>
+                    <h4 class="Visiting">Mr. Zain Jeewanjee visited Saylani Welfare International Trust Head Office.
+                    </h4>
+                    <button class="rightArrow">→</button>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsFirst">
+                    <img src="/assets/70.jpg" class="ncImg" />
+                    <div class="Layer"></div>
+                </div>
+                <div class="data">
+                    <p class="date">Mon Aug 12 2028</p>
+                    <h4 class="Visiting">Saylani, in collaboration with NADRA , launches thalassemia Screening</h4>
+                    <button class="rightArrow">→</button>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsFirst">
+                    <img src="/assets/71.jpg" class="ncImg" />
+                    <div class="Layer"></div>
+                </div>
+                <div class="data">
+                    <p class="date">Mon Aug 12 2028</p>
+                    <h4 class="Visiting">Adnan Luawei (Prominent IT Leader & CEO Folio3) at Saylani Welfare Trust HQ.</h4>
+                    <button class="rightArrow">→</button>
+                </div>
+            </div>
+            <div class="newsCard">
+                <div class="newsFirst">
+                    <img src="/assets/72.jpg" class="ncImg" />
+                    <div class="Layer"></div>
+                </div>
+                <div class="data">
+                    <p class="date">Sun Aug 04 2028</p>
+                    <h4 class="Visiting">Saylani Tree Plantation Drive with CEO Muhammad Madni Bashir</h4>
+                    <button class="rightArrow">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="formSection">
+        <div class="Opacity_Layer"></div>
+        <h2 class="Saylani_Headline">Saylani Guide</h2>
+        <div>
+            <input min="0" type="text" placeholder="Enter E-Mail Address" class="theme_input" value=""
+                control-id="ControlID-384"/>
+        </div>
+        <button class="Btn_Subscribe">SUBSCRIBE</button>
+    </div>
+    <footer class="footerContainer">
+        <div class="footerbg"></div>
+        <div class="footerContentContainer">
+            <div class="footerTxtContainer">
+                <div class="footerImgContainer">
+                    <img src="/assets/Saylani.logo.png" class="FooterLogo" />
+                    <div class="SOCIALContainer">
+                        <img class="social_icons" src="/assets/73.png" />
+                        <img class="social_icons" src="/assets/74.jpeg" />
+                        <img class="social_icons" src="/assets/75.png" />
+                        <img class="social_icons" src="/assets/79.jpeg" />
+                    </div>
+                </div>
+                <div class="MenuContainer">
+                    <h4>About</h4>
+                    <ul class="MCULContainer">
+                        <li>
+                            Introduction
+                        </li>
+                        <li>
+                            Chairman Message
+                        </li>
+                    </ul>
+                </div>
+                <div class="MenuContainer">
+                    <h4>Explore</h4>
+                    <ul class="MCULContainer">
+                        <li>
+                            News
+                        </li>
+                        <li>
+                            Media
+                        </li>
+                        <li>
+                            Donation
+                        </li>
+                    </ul>
+                </div>
+                <div class="MenuContainer">
+                    <h4>Contact</h4>
+                    <ul class="MCULContainer">
+                        <li>
+                            1 E Erie St STE 525-2783 Chicago,
+                            IL 60611
+                        </li>
+                        <li>
+                            UAN Pak: +92 021-111729526
+                        </li>
+                        <li> Email:info@SaylaniWelfareUSA.com</li>
+                        <li> <span class="number">Call: 833-786-0999</span></li>
+                        <li> Tax ID: 88-3709826</li>
+                        <li> Muhammad Tahir</li>
+                        <li>For Istikhara Contact <img class="whatsapp" src="/assets/80.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copy">Copyright © 2024 by Saylani Welfare Int Trust</p>
+        </div>
+    </footer>
+</body>
+</html>
